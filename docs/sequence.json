@@ -1,0 +1,252 @@
+[
+  {
+    "source": 1,
+    "slide": 1,
+    "title": "OTel em Produção"
+  },
+  {
+    "source": 3,
+    "slide": 2,
+    "title": "Danrlei Souza"
+  },
+  {
+    "source": 4,
+    "slide": 3,
+    "title": "Ezequiel Barros"
+  },
+  {
+    "source": 5,
+    "slide": 4,
+    "title": "Agenda"
+  },
+  {
+    "source": 6,
+    "slide": 5,
+    "title": "O que é observabilidade?"
+  },
+  {
+    "source": 7,
+    "slide": 6,
+    "title": "O que é observabilidade?"
+  },
+  {
+    "source": 8,
+    "slide": 7,
+    "title": "O que é Telemetria?"
+  },
+  {
+    "source": 9,
+    "slide": 8,
+    "title": "O que é Telemetria?"
+  },
+  {
+    "source": 10,
+    "slide": 9,
+    "title": "Quem já trocou de ferramenta de observabilidade?"
+  },
+  {
+    "source": 11,
+    "slide": 10,
+    "title": "Quem já trocou de ferramenta de observabilidade?"
+  },
+  {
+    "source": 12,
+    "slide": 11,
+    "title": "Como a industria de software tentou resolver esse problema?"
+  },
+  {
+    "source": 13,
+    "slide": 12,
+    "title": "Linha do tempo do OpenTelemetry"
+  },
+  {
+    "source": 14,
+    "slide": 13,
+    "title": "O maior problema de cada um dos projetos era o fato de existirem dois."
+  },
+  {
+    "source": 15,
+    "slide": 14,
+    "title": "O que é o OpenTelemetry?"
+  },
+  {
+    "source": 16,
+    "slide": 15,
+    "title": "Os três sinais e o contexto que os une"
+  },
+  {
+    "source": 17,
+    "slide": 16,
+    "title": "A filosofia em três princípios"
+  },
+  {
+    "source": 18,
+    "slide": 17,
+    "title": "Os benefícios na prática"
+  },
+  {
+    "source": 19,
+    "slide": 18,
+    "title": "Os fornecedores agora competem por quem faz o melhor com a telemetria "
+  },
+  {
+    "source": 20,
+    "slide": 19,
+    "title": "Aplicação → OTLP → Backend"
+  },
+  {
+    "source": 21,
+    "slide": 20,
+    "title": "O componente principal"
+  },
+  {
+    "source": 22,
+    "slide": 21,
+    "title": "Um único binário pode assumir vários papéis, e é aí que a flexibilidad"
+  },
+  {
+    "source": 23,
+    "slide": 22,
+    "title": "Padrões de Deploy do Collector"
+  },
+  {
+    "source": 24,
+    "slide": 23,
+    "title": "Básico"
+  },
+  {
+    "source": 25,
+    "slide": 24,
+    "title": "Normalizer"
+  },
+  {
+    "source": 26,
+    "slide": 25,
+    "title": "Kubernetes - sidecar"
+  },
+  {
+    "source": 27,
+    "slide": 26,
+    "title": "Kubernetes - daemonset"
+  },
+  {
+    "source": 28,
+    "slide": 27,
+    "title": "Loadbalancer"
+  },
+  {
+    "source": 29,
+    "slide": 28,
+    "title": "Multicluster"
+  },
+  {
+    "source": 30,
+    "slide": 29,
+    "title": "Multitenant"
+  },
+  {
+    "source": 31,
+    "slide": 30,
+    "title": "Por sinal"
+  },
+  {
+    "source": 32,
+    "slide": 31,
+    "title": "Kafka"
+  },
+  {
+    "source": 33,
+    "slide": 32,
+    "title": "O mesmo binário pode rodar como agente, perto da aplicação, ou como ga"
+  },
+  {
+    "source": 34,
+    "slide": 33,
+    "title": "O chamado"
+  },
+  {
+    "source": 35,
+    "slide": 34,
+    "title": "O sistema estava funcionando"
+  },
+  {
+    "source": 36,
+    "slide": 35,
+    "title": "Problema P1"
+  },
+  {
+    "source": 37,
+    "slide": 36,
+    "title": "Problema P1 · Fila do exporter"
+  },
+  {
+    "source": 38,
+    "slide": 37,
+    "title": "Fila"
+  },
+  {
+    "source": 39,
+    "slide": 38,
+    "title": "Problema P2"
+  },
+  {
+    "source": 40,
+    "slide": 39,
+    "title": "Problema P2 · Volume e vazão"
+  },
+  {
+    "source": 41,
+    "slide": 40,
+    "title": "Roteamento"
+  },
+  {
+    "source": 42,
+    "slide": 41,
+    "title": "Problema P3"
+  },
+  {
+    "source": 43,
+    "slide": 42,
+    "title": "Memória"
+  },
+  {
+    "source": 44,
+    "slide": 43,
+    "title": "Recusar dados antes de morrer"
+  },
+  {
+    "source": 45,
+    "slide": 44,
+    "title": "Problema P4"
+  },
+  {
+    "source": 46,
+    "slide": 45,
+    "title": "Problema P4 · Distribuição entre gateways"
+  },
+  {
+    "source": 47,
+    "slide": 46,
+    "title": "gRPC/L4"
+  },
+  {
+    "source": 48,
+    "slide": 47,
+    "title": "Distribuição de carga com renovação de conexões"
+  },
+  {
+    "source": 49,
+    "slide": 48,
+    "title": "Checklist antes de promover para produção"
+  },
+  {
+    "source": 51,
+    "slide": 49,
+    "title": "O chamado à comunidade"
+  },
+  {
+    "source": 53,
+    "slide": 50,
+    "title": "Obrigado! · Perguntas?"
+  }
+]
